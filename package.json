@@ -1,0 +1,23 @@
+{
+  "name": "codenova-expense-tracker",
+  "version": "1.0.0",
+  "description": "Full Stack Expense Tracker built for CodeNova Full Stack Development Internship Task 2",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "codenova",
+    "task2",
+    "expense-tracker",
+    "mern",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "CodeNova Full Stack Intern",
+  "license": "MIT"
+}
